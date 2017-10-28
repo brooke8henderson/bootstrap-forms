@@ -10,7 +10,10 @@ body {
   font-family: 'Manuale', 'Calibri', 'Georgia', serif;
   /* Manuale is a Google font */
   padding-bottom: 2rem;
-  /* I like some added white space at the bottom of the page */ 
+  background: #fff;
+  color: #000;
+  margin: 2rem;
+  /* I like some added white space at the bottom of the page */
 }
 
 /* Bootstrap's default font stack for body is:
@@ -34,11 +37,20 @@ h1 {
   font-size: 3.5rem; /* big! */
   padding-top: 2rem;
   padding-bottom: 0.5rem;
+  margin: 2rem;
 }
 
 .my-caption {
   font-family: 'Sacramento', sans-serif;
   font-size: 1.7rem;
+}
+
+a {
+  color: #0287b3;
+}
+
+a:hover {
+  color: #3ecbfa;
 }
 
 /*  Note:
