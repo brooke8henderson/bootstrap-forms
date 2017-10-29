@@ -1,124 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Sex Education Quiz</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  </head>
-          <body>
-    <h1>Methods of Sex Education Around the World</h1>
-
-    <div class="container">
-      <div class="row">
-        <section class="col-sm-10">
-
-          <p>
-            Sex education is a highly debated topic around the world. From its content to the age of its students, the subject varies globally as educators attempt to improve the sexual health of adolescents. This quiz will be based on the information found
-            <a href="https://en.wikipedia.org/wiki/Sex_education">here</a>.
-          </p>
-
-          <form>
-
-<p> 1. Which country's main sex education program is called "Healthy Respect"?</p>
-
-            <div class="form-check">
-              <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="programRadios" id="radios1" value="wrong">
-                South Korea
-              </label>
-            </div>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input class="form-check-input" type="radio" name="programRadios" id="radios2" value="wrong">
-                Nigeria
-              </label>
-            </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="programRadios" id="radios3" value="right">
-                Scotland
-                </label>
-              </div>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="programRadios" id="radios4" value="wrong">
-                  Canada
-                </label>
-              </div>
-
-        <div class="form-group">   <label class="form control">
-           2. What skills did the Netherlands "Long Live Love" package (Lang leve de liefde) aim to teach teenagers? <input type="text" name="Skills" id="form-skills" value="Describe skills here" maxlength="100"></label></div>
-
-           <div class="form-group">   <label class="form control">
-  3. In New Zealand, sexuality education is a part of what curriculum that is compulsory for the first ten years of schooling?  <input type="text" name="Skills" id="form-curriculum" value="Type curriculum here" maxlength="100"> </label> </div>
-
-  <div class="form-check">
-     4. A Consultative Council for Health and Human Relations Education was established in December 1980 in Australia. Check the boxes describing the major functions of the council:
-  <label class="form-check-label">
-
-    <input class="form-check-input" type="checkbox" name="functions" value="">
-    to advise and recommend the standards for in-service courses for teachers and relevant members of the school community
-  </label>
-</div>
-<div class="form-check">
-<label class="form-check-label">
-  <input class="form-check-input" type="checkbox" name="functions" value="">
-  to develop, for consideration of the Government, appropriate curriculum for schools
-</label>
-</div>
-<div class="form-check">
-<label class="form-check-label">
-  <input class="form-check-input" type="checkbox" name="functions" value="">to advise military on proper sexual health training techniques
-    </label>
-  </div>
-  <div class="form-check">
-  <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" name="functions" value="">
-    to advise and to be consulted on all aspects of Health and Human Relations' Education in schools
-  </label>
-</div>
-
-  <div class="form-group"> <label for="FormControlTextarea1"> 5. In a few short sentences, describe sex education in the United States.
-    <textarea class="form-control" id="textarea" rows="3"></textarea></label></div>
-
-<div class="form-group">   <label class="form control">
-               6. According to the 1999 study by the Guttmacher Institute, what grades in the U.S. covered sex education? <input type="text" name="Grades" id="form-grades" value="Enter a range of grades" maxlength="50"></label></div>
-
-
-<div class="select" id="FormControlTextarea2">
-   <label class="form control">
-7. Select the country whose government launched a new program called "les ABCD de l’égalité" in 2013:
-  <select class="custom-select-sm">
-
-    <option value="country1" name="ABCD" id="form-program1">France</option>
-      <option value="country2" name="ABCD" id="form-program2">Nigeria</option>
-        <option value="country3" name="ABCD" id="form-program3">Spain</option>
-          <option value="country4" name="ABCD" id="form-program4">India</option>
-            <option value="country5" name="ABCD" id="form-program5">China</option>
-              <option value="country6" name="ABCD" id="form-program6">Jamaica</option>
+<head>
+	<title>Sex Education Quiz</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<h1>Methods of Sex Education Around the World</h1>
+	<div class="container">
+		<div class="row">
+			<section class="col-sm-10">
+				<p>Sex education is a highly debated topic around the world. From its content to the age of its students, the subject varies globally as educators attempt to improve the sexual health of adolescents. This quiz will be based on the information found <a href="https://en.wikipedia.org/wiki/Sex_education">here</a>.</p>
+				<form>
+					<p>1. Which country's main sex education program is called "Healthy Respect"?</p>
+					<div class="form-check">
+						<label class="form-check-label"><input class="form-check-input" id="radios1" name="programRadios" type="radio" value="wrong"> South Korea</label>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label"><input class="form-check-input" id="radios2" name="programRadios" type="radio" value="wrong"> Nigeria</label>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label"><input class="form-check-input" id="radios3" name="programRadios" type="radio" value="right"> Scotland</label>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label"><input class="form-check-input" id="radios4" name="programRadios" type="radio" value="wrong"> Canada</label>
+					</div>
+					<div class="form-group">
+						<label class="form control">2. What skills did the Netherlands "Long Live Love" package (Lang leve de liefde) aim to teach teenagers? <input id="form-skills" maxlength="100" name="Skills" type="text" value="Describe skills here"></label>
+					</div>
+					<div class="form-group">
+						<label class="form control">3. In New Zealand, sexuality education is a part of what curriculum that is compulsory for the first ten years of schooling? <input id="form-curriculum" maxlength="100" name="Skills" type="text" value="Type curriculum here"></label>
+					</div>
+					<div class="form-check">
+						4. A Consultative Council for Health and Human Relations Education was established in December 1980 in Australia. Check the boxes describing the major functions of the council: <label class="form-check-label"><input class="form-check-input" name="functions" type="checkbox" value=""> to advise and recommend the standards for in-service courses for teachers and relevant members of the school community</label>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label"><input class="form-check-input" name="functions" type="checkbox" value=""> to develop, for consideration of the Government, appropriate curriculum for schools</label>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label"><input class="form-check-input" name="functions" type="checkbox" value="">to advise military on proper sexual health training techniques</label>
+					</div>
+					<div class="form-check">
+						<label class="form-check-label"><input class="form-check-input" name="functions" type="checkbox" value=""> to advise and to be consulted on all aspects of Health and Human Relations' Education in schools</label>
+					</div>
+					<div class="form-group">
+						<label for="FormControlTextarea1">5. In a few short sentences, describe sex education in the United States.
             </label>
-</select>
-</div>
-
-  <div class="form-group">
-    <label class="form control">
-  <input class="btn btn-primary" type="submit" value="Submit">
-<input class="btn btn-primary" type="reset" value="Reset">
-</label></div>
-
-          </form>
-
-        </div>   <!-- column close-->
-      </div>   <!-- row close-->
-    </section>  <!-- container close-->
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+						<textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+					</div>
+					<div class="form-group">
+						<label class="form control">6. According to the 1999 study by the Guttmacher Institute, what grades in the U.S. covered sex education? <input id="form-grades" maxlength="50" name="Grades" type="text" value="Enter a range of grades"></label>
+					</div>
+					<div class="select" id="FormControlTextarea2">
+						<label class="form control">7. Select the country whose government launched a new program called "les ABCD de l’égalité" in 2013:</label> <select class="custom-select-sm">
+							<option id="form-program1" value="country1">
+								France
+							</option>
+							<option id="form-program2" value="country2">
+								Nigeria
+							</option>
+							<option id="form-program3" value="country3">
+								Spain
+							</option>
+							<option id="form-program4" value="country4">
+								India
+							</option>
+							<option id="form-program5" value="country5">
+								China
+							</option>
+							<option id="form-program6" value="country6">
+								Jamaica
+							</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<input class="btn btn-primary" type="submit" value="Submit"> <input class="btn btn-primary" type="reset" value="Reset">
+					</div>
+				</form>
+			</section>
+		</div><!-- column close-->
+	</div><!-- row close-->
+	<!-- container close-->
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js">
+	</script>
+</body>
 </html>
